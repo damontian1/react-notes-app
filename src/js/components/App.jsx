@@ -29,7 +29,7 @@ var App = React.createClass({
 
 	render: function(){
 		return(
-			<div>
+			<div className="container">
 					<div className="row">
 						<div className="col-md-2">
 							<NotesForm />
