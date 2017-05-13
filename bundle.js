@@ -9670,7 +9670,7 @@ var App = React.createClass({
 	render: function render() {
 		return React.createElement(
 			"div",
-			null,
+			{ className: "container" },
 			React.createElement(
 				"div",
 				{ className: "row" },
